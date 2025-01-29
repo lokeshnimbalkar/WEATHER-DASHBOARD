@@ -1,0 +1,63 @@
+.outerdiv{
+  background: url('../assets/image.png');
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 100vh;
+}
+
+.searchbar{
+  display: flex;
+  background-color: rgba(0,0,0,0.49);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  align-items: center;
+  margin: 10px;
+}
+
+.searchbar input{
+  width: 300px;
+  padding: 20px;
+
+  border:none;
+  outline:none;
+  font-size: 18px;
+}
+
+.searchbar button{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.weathericon {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.temp {
+  color: rgb(255, 234, 150);
+  font-size: 70px;
+}
+
+.temp span {
+  font-size: 30px;
+  color: white;
+}
+
+.city {
+  font-size: 30px;
+  color: rgb(221, 221, 221);
+}
+
+.weathertype {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
